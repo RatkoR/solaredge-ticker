@@ -1,0 +1,36 @@
+.state-initial {
+    color: white;
+}
+
+.state-ok {
+    color: green;
+}
+
+.state-warning {
+    color: rgb(214, 129, 18);
+}
+
+.icon-export {
+    padding-right: 0px;
+}
+
+.text-export {
+    padding-left: 0px;
+}
+
+.icon-import {
+    padding-right: 0px;
+}
+
+.text-import {
+    padding-left: 0px;
+}
+
+.icon-import-perc {
+    padding-right: 0px;
+    font-size: 9px;
+}
+
+.text-import-perc {
+    padding-left: 0px;
+}

@@ -1,0 +1,9 @@
+{
+  "uuid": "solaredge_ticker@kramfid.org",
+  "name": "Solaredge ticker",
+  "description": "Shows solaredge power levels",
+  "version": 1,
+  "shell-version": ["46"],
+  "url": "http://example.com",
+  "settings-schema": "org.gnome.shell.extensions.solaredge_ticker"
+}

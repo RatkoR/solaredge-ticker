@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.solaredge_ticker" path="/org/gnome/shell/extensions/solaredge_ticker/">
+    <key name="mbmd-url" type="s">
+      <default>"http://localhost:8080"</default>
+      <summary>URL for MBMD</summary>
+      <description>The URL to use for MBMD connection.</description>
+    </key>
+
+    <key name="mbm-solaredge-key" type="s">
+      <default>"SOLAREDGE1.1"</default>
+      <summary>Solaredge key in /api/last json</summary>
+    </key>
+
+    <key name="mbm-powermeter-key" type="s">
+      <default>"SOLAREDGE1.1.1"</default>
+      <summary>Powermeter key in /api/last json</summary>
+    </key>
+
+    <key name="mbm-request-delay" type="s">
+      <default>"10"</default>
+      <summary>Delay between two requests to mbmd api (in seconds).</summary>
+    </key>
+
+    <key name="mbm-max-solar-power" type="s">
+      <default>"10000"</default>
+      <summary>How much solar power is generated at maximum (in W).</summary>
+    </key>
+
+    <key name="mbm-max-grid-power" type="s">
+      <default>"4000"</default>
+      <summary>What is grid maximum usage, before you pay penalties (in W).</summary>
+    </key>
+  </schema>
+</schemalist>
